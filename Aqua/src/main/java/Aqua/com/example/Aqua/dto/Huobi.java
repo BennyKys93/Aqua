@@ -16,14 +16,8 @@ import lombok.ToString;
 @AllArgsConstructor
 @ToString
 @Entity
-public class Wallet {
-
-	private long personId;
-
-	private String name;
-
-	private String currency;
-
-	private long balance;
+public class Huobi {
+	
+	Data[] data;
 
 }
