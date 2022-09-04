@@ -14,6 +14,7 @@ public class BinanceServiceImpl implements BinanceService {
 	@Autowired
 	private BinanceRepository binanceRepository;
 
+	
 	@Override
 	public void saveBinance(Binance[] binance) {
 
